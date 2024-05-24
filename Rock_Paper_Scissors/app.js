@@ -33,7 +33,7 @@ const getComputerChoice = function () {
   }
 }
 
-const getWinner = function(cChoice, pChoice) {
+const getWinner = (cChoice, pChoice) => {
   if (cChoice === pChoice) {
     return RESULT_DRAW;
   } else if (cChoice === ROCK && pChoice === PAPER || cChoice === PAPER && pChoice === SCISSORS || cChoice === SCISSORS && pChoice === ROCK) {
