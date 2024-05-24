@@ -17,7 +17,7 @@ const getPlayerChoice = () => {
     selection !== SCISSORS
   ) {
     alert(`Invalid choice! We chose ${DEFAULT_USER_CHOICE} for you!`);
-    return DEFAULT_USER_CHOICE;
+    return DEFAULT_USER_CHOICE; // Default Value
   }
   return selection;
 };
